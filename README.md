@@ -1,2 +1,2 @@
 # lolcat-translator
-HTML/JS English-to-Lolcat translator. Chanter week two.
+HTML/JS English-to-Lolcat translator. Khantober week two.

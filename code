@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>New Webpage</title>
+        <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+        <style>
+            label {
+                font-family: sans-serif;
+                font-weight: 600;
+            }
+            textarea {
+                font-family: "Impact", "Passion One", "Arial Black", sans-serif;
+                font-size: 2em;
+                
+                text-transform: uppercase;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label>ENGLISH</label>
+            <hr>
+            <textarea id="english" rows="3" cols="30">CAN I HAVE A CHEESEBURGER?</textarea>
+    
+            <br>
+        
+            <button id="translate">Translate</button>
+            
+            <br><br>
+        
+            <label>LOLCAT</label>
+                <hr>
+                <textarea id="lolcat" rows="3" cols="30">I CAN HAS CHEEZBURGER?</textarea>
+        </form>
+        
+        <script>
+            var button = document.getElementById("translate");
+            
+            var translateToLolcat = function() {
+                var english = document.getElementById("english").value;
+                var inLolcat = english.toUpperCase();
+                
+                inLolcat = inLolcat.replace(/'/, "");
+                inLolcat = inLolcat.replace(/BECAUSE/, "CUZ");
+                inLolcat = inLolcat.replace(/CAN I/, "I CAN");
+                inLolcat = inLolcat.replace(/HAVE/, "HAS");
+                inLolcat = inLolcat.replace(/ A/, "");
+                inLolcat = inLolcat.replace(/IS/, "IZ");
+                inLolcat = inLolcat.replace(/ IT/, "");
+                inLolcat = inLolcat.replace(/LIKE/, "LIEK")
+                inLolcat = inLolcat.replace(/SE/, "Z");
+                inLolcat = inLolcat.replace(/OO/, "U");
+                inLolcat = inLolcat.replace(/THAT/, "DAT");
+                inLolcat = inLolcat.replace(/AID /, "ED ")
+                inLolcat = inLolcat.replace(/TO/, "2");
+                inLolcat = inLolcat.replace(/YOU/, "U");
+                inLolcat = inLolcat.replace(/OF/, "OV");
+                inLolcat = inLolcat.replace(/ITS/, "IZ");
+                inLolcat = inLolcat.replace(/COULD/, "CUD");
+                inLolcat = inLolcat.replace(/OVE/, "UV");
+                inLolcat = inLolcat.replace(/KNOW/, "KNOE");
+                inLolcat = inLolcat.replace(/COMMUNICATE/, "SPEEK");
+                inLolcat = inLolcat.replace(/SPEAK/, "SPEEK");
+                inLolcat = inLolcat.replace(/TH /, "F ");
+                inLolcat = inLolcat.replace(/JUST/, "JUS");
+                inLolcat = inLolcat.replace(/WANT/, "WANTS");
+                inLolcat = inLolcat.replace(/NEED/, "NEEDS");
+                inLolcat = inLolcat.replace(/GIVE/, "GIV");
+                inLolcat = inLolcat.replace(/MY/, "MAH");
+                inLolcat = inLolcat.replace(/THE/, "TEH");
+                inLolcat = inLolcat.replace(/OTHER/, "OTHR");
+                inLolcat = inLolcat.replace(/WHO/, "HOO");
+                
+                document.getElementById("lolcat").value = inLolcat;
+            };
+            
+            button.addEventListener("click", translateToLolcat)
+        </script>
+    </body>
+</html>

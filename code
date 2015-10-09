@@ -74,10 +74,11 @@
                 inLolcat = inLolcat.replace(/PLEASE/, "PLZ");
                 inLolcat = inLolcat.replace(/KITTY/, "KITTEH");
                 inLolcat = inLolcat.replace(/BABY/, "BAYBEH");
-                inLolcat = inLolcat.replace(/WITH/, "WIF");
+                inLolcat = inLolcat.replace(/ITH/, "IF");
                 inLolcat = inLolcat.replace(/ATE/, "EATED");
                 inLolcat = inLolcat.replace(/HAPPY/, "HAPPEH");
-                inLolcat = inLolcat.replace(/NOTHING/, "NOTHIN");
+                inLolcat = inLolcat.replace(/ING/, "EDING:);
+                
                 
                 document.getElementById("lolcat").value = inLolcat;
             };

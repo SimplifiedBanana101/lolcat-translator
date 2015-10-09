@@ -77,8 +77,8 @@
                 inLolcat = inLolcat.replace(/ITH/, "IF");
                 inLolcat = inLolcat.replace(/ATE/, "EATED");
                 inLolcat = inLolcat.replace(/HAPPY/, "HAPPEH");
-                inLolcat = inLolcat.replace(/ING/, "EDING:);
-                
+                inLolcat = inLolcat.replace(/ING/, "EDING");
+                inLolcat = inLolcat.replace(/!/, "!!1");
                 
                 document.getElementById("lolcat").value = inLolcat;
             };

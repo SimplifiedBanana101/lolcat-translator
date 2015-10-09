@@ -71,6 +71,13 @@
                 inLolcat = inLolcat.replace(/THE/, "TEH");
                 inLolcat = inLolcat.replace(/OTHER/, "OTHR");
                 inLolcat = inLolcat.replace(/WHO/, "HOO");
+                inLolcat = inLolcat.replace(/PLEASE/, "PLZ");
+                inLolcat = inLolcat.replace(/KITTY/, "KITTEH");
+                inLolcat = inLolcat.replace(/BABY/, "BAYBEH");
+                inLolcat = inLolcat.replace(/WITH/, "WIF");
+                inLolcat = inLolcat.replace(/ATE/, "EATED");
+                inLolcat = inLolcat.replace(/HAPPY/, "HAPPEH");
+                inLolcat = inLolcat.replace(/NOTHING/, "NOTHIN");
                 
                 document.getElementById("lolcat").value = inLolcat;
             };

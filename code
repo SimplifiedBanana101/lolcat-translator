@@ -99,7 +99,7 @@
                 inLolcat = inLolcat.replace(/UFF /, "UFS ");
                 inLolcat = inLolcat.replace(/BYE/, "KTHXBYE");
                 inLolcat = inLolcat.replace(/DAY /, "CATURDAY ");
-                inLolcat = inLolcat.replace(/BOY/, "BOY");
+                inLolcat = inLolcat.replace(/BOY/, "BOI");
                 inLolcat = inLolcat.replace(/ALS /, "ULZ ");
                 inLolcat = inLolcat.replace(/IE/, "EE");
                 inLolcat = inLolcat.replace(/REALLY/, "RLY");

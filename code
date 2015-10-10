@@ -51,7 +51,7 @@
                 inLolcat = inLolcat.replace(/LIKE/, "LIEK")
                 inLolcat = inLolcat.replace(/SE/, "Z");
                 inLolcat = inLolcat.replace(/OO/, "U");
-                inLolcat = inLolcat.replace(/THAT/, "DAT");
+                inLolcat = inLolcat.replace(/THAT/, "TAHT");
                 inLolcat = inLolcat.replace(/AID /, "ED ")
                 inLolcat = inLolcat.replace(/TO/, "2");
                 inLolcat = inLolcat.replace(/YOU/, "U");
@@ -71,6 +71,42 @@
                 inLolcat = inLolcat.replace(/THE/, "TEH");
                 inLolcat = inLolcat.replace(/OTHER/, "OTHR");
                 inLolcat = inLolcat.replace(/WHO/, "HOO");
+                /*
+                    The translations from here down are by Eytukan (Txeptirea)
+                */
+                inLolcat = inLolcat.replace(/PLEASE/, "PLZ");
+                inLolcat = inLolcat.replace(/KITTY/, "KITTEH");
+                inLolcat = inLolcat.replace(/BABY/, "BAYBEH");
+                inLolcat = inLolcat.replace(/ATE/, "EATED");
+                inLolcat = inLolcat.replace(/HAPPY/, "HAPPEE");
+                inLolcat = inLolcat.replace(/NOTHING/, "NOTHIN");
+                inLolcat = inLolcat.replace(/ING /, "N ");
+                inLolcat = inLolcat.replace(/!/, "!!1");
+                inLolcat = inLolcat.replace(/UM /, "AM");
+                inLolcat = inLolcat.replace(/TION /, "SHUN");
+                inLolcat = inLolcat.replace(/CIOUS /, "SHUS");
+                inLolcat = inLolcat.replace(/BOARD /, "BORD");
+                inLolcat = inLolcat.replace(/BORED/, "BORD");
+                inLolcat = inLolcat.replace(/LE /, "L ");
+                inLolcat = inLolcat.replace(/THING/, "TING");
+                inLolcat = inLolcat.replace(/ELP /, "ALP ");
+                inLolcat = inLolcat.replace(/FOR/, "4");
+                inLolcat = inLolcat.replace(/E /, "ES ");
+                inLolcat = inLolcat.replace(/CS /, "X ");
+                inLolcat = inLolcat.replace(/AM/, "ARE");
+                inLolcat = inLolcat.replace(/AND/, "N");
+                inLolcat = inLolcat.replace(/HI/, "HAI");
+                inLolcat = inLolcat.replace(/UFF /, "UFS ");
+                inLolcat = inLolcat.replace(/BYE/, "KTHXBYE");
+                inLolcat = inLolcat.replace(/DAY /, "CATURDAY ");
+                inLolcat = inLolcat.replace(/BOY/, "BOY");
+                inLolcat = inLolcat.replace(/ALS /, "ULZ ");
+                inLolcat = inLolcat.replace(/IE/, "EE");
+                inLolcat = inLolcat.replace(/REALLY/, "RLY");
+                inLolcat = inLolcat.replace(/ACK/, "AK");
+                inLolcat = inLolcat.replace(/PHY /, "FEE");
+                inLolcat = inLolcat.replace(/GIRL/, "GURL");
+                inLolcat = inLolcat.replace(/ER /, "AH ");
                 
                 document.getElementById("lolcat").value = inLolcat;
             };

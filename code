@@ -98,8 +98,14 @@
                 inLolcat = inLolcat.replace(/HI/, "HAI");
                 inLolcat = inLolcat.replace(/UFF /, "UFS ");
                 inLolcat = inLolcat.replace(/BYE/, "KTHXBYE");
-                inLolcat = inLolcat.replace(/DAY /, "CATURDAY ");
-                inLolcat = inLolcat.replace(/BOY/, "BOY");
+                inLolcat = inLolcat.replace(/MONDAY/, "CATURDAY");
+                inLolcat = inLolcat.replace(/TUESDAY/, "CATURDAY");
+                inLolcat = inLolcat.replace(/WEDNESDAY/, "CATURDAY");
+                inLolcat = inLolcat.replace(/THURSDAY/, "CATURDAY");
+                inLolcat = inLolcat.replace(/FRIDAY/, "CATURDAY");
+                inLolcat = inLolcat.replace(/SATURDAY/, "CATURDAY");
+                inLolcat = inLolcat.replace(/SUNDAY/, "CATURDAY");
+                inLolcat = inLolcat.replace(/BOY/, "BOI");
                 inLolcat = inLolcat.replace(/ALS /, "ULZ ");
                 inLolcat = inLolcat.replace(/IE/, "EE");
                 inLolcat = inLolcat.replace(/REALLY/, "RLY");
@@ -107,6 +113,7 @@
                 inLolcat = inLolcat.replace(/PHY /, "FEE");
                 inLolcat = inLolcat.replace(/GIRL/, "GURL");
                 inLolcat = inLolcat.replace(/ER /, "AH ");
+                inLolcat = inLolcat.replace(/WORDS/, "WURDS");
                 
                 document.getElementById("lolcat").value = inLolcat;
             };
